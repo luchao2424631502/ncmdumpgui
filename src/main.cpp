@@ -228,6 +228,7 @@ END:
 
 int main(int argc, char *argv[])
 {
+    std::cout << "start" << std::endl;
     EditorWindow *myEditor = new EditorWindow(800, 500, argc, argv);
     myEditor->show(argc, argv);
 

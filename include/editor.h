@@ -126,7 +126,7 @@ public:
     FindDialog          *find_dialog;   // 查找窗口
 public:
     /* 状态变量 */
-    Fl_Menu_Item menuitems[32];
+    Fl_Menu_Item menuitems[64];
 
     int ischanged;
     const char *current_file;

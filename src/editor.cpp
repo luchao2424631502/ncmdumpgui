@@ -224,7 +224,7 @@ EditorWindow::EditorWindow(int w, int h, int argc, char *argv[], const char *t)
     menuitems[12] = {"&Redo", FL_COMMAND + 'r',
                      (Fl_Callback *)MenuBar_Utility::redo_cb,
                      this, FL_MENU_DIVIDER};
-    menuitems[13] = {};
+    menuitems[13] = {0};
     menuitems[14] = {"&Search", 0, 0, 0, FL_SUBMENU};
     menuitems[15] = {"&Find", FL_COMMAND + 'f',
                     (Fl_Callback *)MenuBar_Utility::find1_cb,
